@@ -1,4 +1,76 @@
-/* .container header_container{
-    display: block;
+header {
+    height: 100vh;
+    padding-top: 7rem ;
+    overflow: hidden;
+}
+.header_container{
     text-align: center;
-} */
+    height:100%;
+    position: relative;
+}
+
+/* ################### CTA buttons ################### */
+.cta{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+/* ###################SOCIALS#################### */
+.header_socials{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    right: 0;
+    bottom:8rem;
+
+}
+/* ################ME IMAGE############## */
+.me{
+    background: linear-gradient( var(--color-primary),transparent 20%);
+    width: 22rem;
+    height: 50rem;
+    margin-top: 6rem;
+    position: absolute;
+    left: calc(50%-11rem);
+    margin-top: 4rem;
+    border-radius: 10rem;
+    overflow: hidden;
+    padding: 4rem;
+    
+  
+}
+
+/* ################Scroll Down ############## */
+.scroll_down{
+    position: absolute;
+    color: var(--color-primary);
+    bottom: 4rem ;
+    left:45%;
+    font-size: 2rem ;
+    border-bottom : solid var(--color-primary);
+    
+    
+}
+
+/* ######################### MEDIA QUERIEMS (Medium devices) ########################### */
+
+@media screen and (max-width: 1024px){
+    header{
+    height: 68vh;
+    }
+}
+/* ######################### MEDIA QUERIEMS (small devices) ########################### */
+
+@media screen and (max-width:600px){
+    header{
+        height: 100vh;
+        }
+   .header_socials,.scroll_down{
+       display: none;
+   }     
+}

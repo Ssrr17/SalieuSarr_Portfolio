@@ -37,7 +37,8 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 2.0;
-    background-image: url(./assets/png-clipart-stone-wall-brick-wall-texture-building.png) ;
+    background-image: url(./assets/darkwood.jpeg) ;
+    
 }
 
 /* ################ GENERAL CLASSES ############################# */
