@@ -36,7 +36,7 @@ header {
     height: 50rem;
     margin-top: 6rem;
     position: absolute;
-    left: calc(50%-11rem);
+    left:calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 10rem;
     overflow: hidden;
@@ -49,15 +49,17 @@ header {
 .scroll_down{
     position: absolute;
     color: var(--color-primary);
-    bottom: 4rem ;
+    bottom: 8rem ;
     left:45%;
-    font-size: 2rem ;
-    border-bottom : solid var(--color-primary);
+    font-size: 20px ;
+    padding: 0.5rem;
+    border : solid var(--color-primary);
+    border-radius: 0.5rem;
     
     
 }
 
-/* ######################### MEDIA QUERIEMS (Medium devices) ########################### */
+ /* ######################### MEDIA QUERIEMS (Medium devices) ########################### */
 
 @media screen and (max-width: 1024px){
     header{
@@ -66,11 +68,11 @@ header {
 }
 /* ######################### MEDIA QUERIEMS (small devices) ########################### */
 
-@media screen and (max-width:600px){
+ @media screen and (max-width:600px){
     header{
         height: 100vh;
         }
    .header_socials,.scroll_down{
        display: none;
    }     
-}
+} 
