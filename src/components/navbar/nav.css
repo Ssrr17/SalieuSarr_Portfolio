@@ -1,0 +1,29 @@
+ nav {
+     /* black with transperency */
+     background: rgba(0, 0, 0, 0.267);
+     width: max-content;
+     display: block;
+     padding: 0.8rem 1.8rem;
+     z-index: 2;
+     /* fixed on screen */
+     position: fixed;
+     /* always stay center of page */
+     left: 50%;
+     transform: translate(-50%);
+     bottom: 2rem ;
+     display: flex;
+     gap: 1rem;
+     border-radius: 2rem;
+     border : 2px solid var(--color-primary);
+     border-top: none;
+     border-left: none;
+     
+     
+
+ }
+
+ nav:hover{
+    background:var(--color-primary);
+    color: black;
+    border-color: transparent
+ }

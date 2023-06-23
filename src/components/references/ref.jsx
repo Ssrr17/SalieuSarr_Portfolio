@@ -3,9 +3,9 @@ import './ref.css'
 
 const ref = () => {
   return (
-    <div>
+    <section id="references">
       References
-    </div>
+    </section>
   )
 }
 

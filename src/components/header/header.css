@@ -15,6 +15,7 @@ header {
     display: flex;
     gap: 2rem;
     justify-content: center;
+    
 }
 
 /* ###################SOCIALS#################### */
@@ -40,24 +41,37 @@ header {
     margin-top: 4rem;
     border-radius: 10rem;
     overflow: hidden;
-    padding: 4rem;
+    padding: 5rem;
     
   
 }
 
 /* ################Scroll Down ############## */
-.scroll_down{
-    position: absolute;
+.scroll_down {
+
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    
     color: var(--color-primary);
-    bottom: 8rem ;
-    left:45%;
-    font-size: 20px ;
+    font-size: 14px ;
     padding: 0.5rem;
     border : solid var(--color-primary);
+    border-top: none;
+    border-left: none;
     border-radius: 0.5rem;
+
     
     
+} 
+.scroll_down:hover{
+    background:var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
 }
+
 
  /* ######################### MEDIA QUERIEMS (Medium devices) ########################### */
 
