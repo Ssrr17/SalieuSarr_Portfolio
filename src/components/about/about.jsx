@@ -32,13 +32,14 @@ const about = () => {
             <small>Client Testimonials</small>
 
             </article>
+            </div>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente eveniet quaerat, illum excepturi similique nobis delectus doloremque vel eaque perspiciatis cupiditate obcaecati iusto sint voluptas velit impedit incidunt eligendi deleniti!
             </p>
 
-            <a href="#contact" className="btn btn-primary">Message Me</a>
+            <a href="#contact" className="btn">Message Me</a>
 
-          </div>
+          
 
         </div>
       </div>
