@@ -14,8 +14,8 @@
 /* setting universal variables for use throughout project */
 :root {
     --color-bg: #1f1f38;
-    --color-bg-variant: #2c99e7;
-    --color-primary:#2c99e7;
+    --color-bg-variant: #116199;
+    --color-primary:#3b91ce;
     --color-promary-variant: rgba(77,181,255,0.4);
     --color-white:#ffff;
     --color-light: rgba(255,255,255,0.6);
