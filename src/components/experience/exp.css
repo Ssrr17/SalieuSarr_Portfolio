@@ -1,11 +1,41 @@
 .exp_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 .exp_container > div {
-    background: rgb(21, 44, 78);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
+  background: rgb(21, 44, 78);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+}
+.exp_container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.exp_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.exp {
+    display: flex;
+    gap: 1rem;
+}
+.exp_icon{
+    margin-top: 10px;
+}
+
+
+/* ######################### MEDIA QUERIEMS (Medium devices) ########################### */
+
+@media screen and (max-width: 1024px){
+    .exp_container{
+        grid-template-columns: 1fr;
+    }
+    .exp_container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
 }

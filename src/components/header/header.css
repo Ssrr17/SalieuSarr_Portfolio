@@ -47,6 +47,7 @@ header {
 }
 img{
 bottom:4rem;    
+border-radius: 2rem;
 border: 10px groove rgba(165, 108, 42, 0.788);
 background-color:rgb(39, 35, 24);
 }
